@@ -27,11 +27,14 @@ Postgres SQL
 
 📦 Como rodar:
 1- Clone o projeto:
+
 git clone https://github.com/ericdbx/springJwtRest
 cd nome-do-repo
 
 2- Rode a aplicação:
+
 ./mvnw spring-boot:run
 
 3- Faça login com o endpoint /auth/login e utilize o token JWT nas demais rotas com o header:
+
 Authorization: Bearer <seu-token-jwt>
